@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Adding Cart</title>
+    <style>
+        #count{
+            display: inline;
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Satyabama Addin Cart</h1>
+    <div class="container">
+        <button id="mybutton1">-</button>
+        <p id="count">0</p>
+        <button id="mybutton2">+
+        </button>
+    </div>
+    
+</body>
+<script>
+    let b1=document.getElementById('mybutton1');
+    let b2=document.getElementById('mybutton2');
+    let display=document.getElementById('count');
+    let count=0;
+    b1.addEventListener('click',function(){
+        count--;
+        display.innerHTML=count;
+
+    })
+    b2.addEventListener('click',function(){
+        count++;
+        display.innerHTML=count;
+    })
+</script>
+
+
+
+</html>

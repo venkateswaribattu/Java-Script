@@ -1,0 +1,14 @@
+let cname="venky";
+console.log(cname);
+let fname="vasu";
+console.log(fname);
+let hname="nagesh";
+console.log(hname);
+let name="kavitha";
+console.log(name);
+name="narayana";
+console.log(name);
+const pi=3.14;
+console.log(pi);
+let myname:"venky";
+console.log(myname datatypeis +typeof(myname));
